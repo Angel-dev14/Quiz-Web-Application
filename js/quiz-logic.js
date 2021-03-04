@@ -97,7 +97,7 @@ $("#try-again-btn").click(function (){
 })
 $("#home-btn").click(function ()
 {
-    location.href = "index.html";
+    location.href = "topics.html";
 })
 
 
