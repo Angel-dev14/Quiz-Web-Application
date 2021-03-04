@@ -1,0 +1,410 @@
+[
+  {
+    "title": "Што значи HTML",
+    "a": "Hyperlinks and Text Markup Language",
+    "b": "Home Tool Markup Language",
+    "c": "Hyper Text Markup Language",
+    "d": "Hyper Threading",
+    "correct": "c"
+  },
+  {
+    "title": "Koj e HTML тагот за најголем наслов?",
+    "a": "<h2>",
+    "b": "<h1>",
+    "c": "<h4>",
+    "d": "<h3>",
+    "correct": "b"
+  },
+  {
+    "title": "Koj e точниот начин за додавање позадинска боја?",
+    "a": "<body bg=\"green\"",
+    "b": "<background>blue</background>",
+    "c": "<body style=\"background-color: yellow\">",
+    "d": "<body style=\"bg-color: red\">",
+    "correct": "c"
+  },
+  {
+    "title": "Одберето го псевдо-селекторот за празни елементи",
+    "a": ":empty",
+    "b": ".empty",
+    "c": "empty",
+    "d": "#empty",
+    "correct": "a"
+  },
+  {
+    "title": "Кој е атрибутот кој се користи за да се специфира дека некое поле од формата мора да биде пополнето(обавезно поле)?",
+    "a": "placeholder",
+    "b": "important",
+    "c": "required",
+    "d": "validate",
+    "correct": "c"
+  },
+  {
+    "title": "Со кој HTML елемент се вметнува болдиран текст?",
+    "a": "<bold>",
+    "b": "<strong>",
+    "c": "<b>",
+    "d": "<important>",
+    "correct": "c"
+  },
+  {
+    "title": "Кој од следниве е точна декларација на хиперлинк?",
+    "a": "<a name=\"http://www.w3schools.com\">W3Schools.com</a>",
+    "b": "<a url=\"http://www.w3schools.com\">W3Schools.com</a>",
+    "c": " <a>http://www.w3schools.com</a>",
+    "d": " <a href=\"http://www.w3schools.com\">W3Schools</a>",
+    "correct": "d"
+  },
+  {
+    "title": "Пресметајте ја специфичноста на следниот CSS селектор:\nbody ul.list li.demo div",
+    "a": "0-3-3",
+    "b": "1-1-4",
+    "c": "0-2-4",
+    "d": "1-2-3",
+    "correct": "c"
+  },
+  {
+    "title": "Кои две својства се поставуваат преку flex-flow?",
+    "a": "justify-content и align-items",
+    "b": "align-items и align-content",
+    "c": "justify-content и flex-direction",
+    "d": "flex-direction и flex-wrap",
+    "correct": "d"
+  },
+  {
+    "title": "Кој од следниве означува подредена листа?",
+    "a": "ol",
+    "b": "dl",
+    "c": "ul",
+    "d": "list",
+    "correct": "a"
+  },
+  {
+    "title": "Како се отвара нов прозорец(tab)",
+    "a": "<a href=\"url\" target=\"_window\">",
+    "b": "<a href=\"url\" target=\"_self\">\n",
+    "c": "<a href=\"url\" target=\"_new\">",
+    "d": "<a href=\"url\" target=\"_blank\">",
+    "correct": "d"
+  },
+  {
+    "title": "Bo кој од следниве HTML тагови може да се дефинира внатрешен CSS",
+    "a": "<css>",
+    "b": "<style>",
+    "c": "<script>",
+    "d": "<styles>",
+    "correct": "b"
+  },
+  {
+    "title": "Кој од следниве одговори не е точен",
+    "a": "Класите се селектираат со #",
+    "b": "Класите се селектираат со .",
+    "c": "ID-та се селектираат со #",
+    "d": "Елементите се селектираат со името на елементот",
+    "correct": "a"
+  },
+  {
+    "title": "Пресметајте ја специфичноста на следниот CSS селектор:\nul li.red",
+    "a": "0-0-2",
+    "b": "1-1-0",
+    "c": "0-1-2",
+    "d": "1-1-2",
+    "correct": "c"
+  },
+  {
+    "title": "Пресметајте ја специфичноста на следниот CSS селектор:\nul#primary-nav li.active",
+    "a": "1-1-2",
+    "b": "1-2-3",
+    "c": "2-1-2",
+    "d": "0-1-2",
+    "correct": "a"
+  },
+  {
+    "title": "Пресметајте ја специфичноста на следниот CSS селектор:\ndiv.test:hover",
+    "a": "1-2-0",
+    "b": "0-1-2",
+    "c": "0-3-2",
+    "d": "0-2-1",
+    "correct": "d"
+  },
+  {
+    "title": "Пресметајте ја специфичноста на следниот CSS селектор:\ndiv.test:hover",
+    "a": "1-2-0",
+    "b": "0-1-2",
+    "c": "0-3-2",
+    "d": "0-2-1",
+    "correct": "d"
+  },
+  {
+    "title": "Што означува кратенката CSS?",
+    "a": "Cascading Style Sheets",
+    "b": "Creative Style Sheets",
+    "c": "Computer Style Sheets",
+    "d": "Colorful Style Sheets",
+    "correct": "a"
+  },
+  {
+    "title": "Што означува кратенката CSS?",
+    "a": "Cascading Style Sheets",
+    "b": "Creative Style Sheets",
+    "c": "Computer Style Sheets",
+    "d": "Colorful Style Sheets",
+    "correct": "a"
+  },
+  {
+    "title": "Како се линкува надворешен CSS?",
+    "a": " <stylesheet>mystyle.css</stylesheet>",
+    "b": " <style src=\"mystyle.css\">",
+    "c": " <link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+    "d": "<style href=\"mystyle.css\">",
+    "correct": "b"
+  },
+  {
+    "title": "Каде во HTML документот се става CSS?",
+    "a": "Во <body> секцијата",
+    "b": "Во <head> секцијата",
+    "c": "На крај на HTML документот",
+    "d": "Во посебен <meta> таг",
+    "correct": "b"
+  },
+  {
+    "title": "Ако сакаме да додадеме зелена боја на рамка околу некој елемент, користиме:",
+    "a": "border-style",
+    "b": "border-decoration",
+    "c": "border-line",
+    "d": "border-color",
+    "correct": "d"
+  },
+  {
+    "title": "Како се додава CSS коментар?",
+    "a": "/ a comment /",
+    "b": "// a comment //",
+    "c": "/* a comment */",
+    "d": "<!-- a comment -->",
+    "correct": "c"
+  },
+  {
+    "title": "Default вредноста на \"position\" атрибутот е:",
+    "a": "fixed",
+    "b": "static",
+    "c": "absolute",
+    "d": "relative",
+    "correct": "b"
+  },
+  {
+    "title": "Што ќе искористите за да додадете простор помеѓу div елемент и неговиот текст",
+    "a": "margin",
+    "b": "padding",
+    "c": "spacing",
+    "d": "inner-margin",
+    "correct": "b"
+  },
+  {
+    "title": "img елементот стандардно(default) е:",
+    "a": "block level element",
+    "b": "inline level element",
+    "c": "inline-block level element",
+    "d": "Ниедно од понудените",
+    "correct": "b"
+  },
+  {
+    "title": "Таг за ред во табела е:",
+    "a": "<tr>",
+    "b": "<table>",
+    "c": "<td>",
+    "d": "<th>",
+    "correct": "a"
+  },
+  {
+    "title": "Таг за наслов во табела е:",
+    "a": "<tr>",
+    "b": "<table>",
+    "c": "<td>",
+    "d": "<th>",
+    "correct": "d"
+  },
+  {
+    "title": "Radio button во HTML форма се дефинира:",
+    "a": "<input type=\"checkbox\">",
+    "b": "<input type=\"radiobutton\">",
+    "c": "<input type=\"radio\">",
+    "d": "<radiobutton type=\"text\">",
+    "correct": "c"
+  },
+  {
+    "title": "Со CSS селектор селектирај ги span таговите\n<body>\n<div>\n<span></span>\n<span></span>\n</div>\n</body>",
+    "a": "div",
+    "b": "body",
+    "c": "span",
+    "d": "span div",
+    "correct": "c"
+  },
+  {
+    "title": "Со CSS селектор селектирајте го секој втор линк почнувајќи од третиот",
+    "a": "a:nth-child(3n+2)",
+    "b": "a:nth-child(2n+3)",
+    "c": "a:nth-child(3)",
+    "d": "a:nth-child(2n+1)",
+    "correct": "b"
+  },
+  {
+    "title": "Пресметајте ја специфичноста на следниот CSS селектор\n#exam h2 .title",
+    "a": "1-1-1",
+    "b": "1-2-0",
+    "c": "2-1-1",
+    "d": "0-1-1",
+    "correct": "a"
+  },
+  {
+    "title": "Која од следните таблели е дефинирана правилно?",
+    "a": "<table><td></td></table>",
+    "b": "<table><tr></tr></table>",
+    "c": "<table><td><tr></tr><td></table>",
+    "d": "<table><tr><td></td></tr></table>",
+    "correct": "d"
+  },
+  {
+    "title": "Со CSS селектор селектирајте го третиот div таг\n<div></div>\n<div></div>\n<div>This one</div>",
+    "a": "div:nth-of-type(3)",
+    "b": "div:nth-child(3)",
+    "c": "div",
+    "d": "div div div",
+    "correct": "a"
+  },
+  {
+    "title": "Кој од следниве се користи за да се зголеми,намали големината на текстот(font)",
+    "a": "font",
+    "b": "font-size",
+    "c": "font-variant",
+    "d": "font-weight",
+    "correct": "b"
+  },
+  {
+    "title": "Со CSS селектор селектирајте ги div таговите што се наоѓаат во article таг:\n<section class=\"table\">\n<div class=\"small\">\n<div>\n<article>\n<div>\n<div></div>\n</div>\n</article>\n</table>",
+    "a": "article < div",
+    "b": "article > div",
+    "c": "table article div div",
+    "d": "article table div",
+    "correct": "b"
+  },
+  {
+    "title": "HTML елементите се користат за:",
+    "a": "Полесен пристап до интернет",
+    "b": "Обезбедување на семантички информации",
+    "c": "Опишување на стуктурата на страната",
+    "d": "Имплементација на програмирани алгоритми",
+    "correct": "c"
+  },
+  {
+    "title": "Кое од следниве тврдења не е точно за body елементот од HTML",
+    "a": "Се наоѓа под head тагот",
+    "b": "Ја содржи содржината на веб сајтот",
+    "c": "Во овој елемент се вметнуваат сликите за приказ на страната",
+    "d": "Во овој елемент се вметнува енкодингот на карактери",
+    "correct": "d"
+  },
+  {
+    "title": "Alt атрибутот na img тагот служи за:",
+    "a": "Обезбедување на текстуален опис на сликата за полесно објаснување на сликата",
+    "b": "Обезбедување на патеката на која се наоѓа сликата",
+    "c": "Големината и ширината на сликата",
+    "d": "Патека до алтернативниот директориум на слики",
+    "correct": "a"
+  },
+  {
+    "title": "За креирање на email линк, пред адресата до која што сакаме да испратиме се додава следниот атрибут?",
+    "a": "sendmail:",
+    "b": "mailto:",
+    "c": "mailsend:",
+    "d": "sendto",
+    "correct": "b"
+  },
+  {
+    "title": "Таг за келија во табела во HTML е:",
+    "a": "<tr>",
+    "b": "<table>",
+    "c": "<td>",
+    "d": "<th>",
+    "correct": "c"
+  },
+  {
+    "title": "Секој CSS започнува со",
+    "a": "Property",
+    "b": "Value",
+    "c": "Selector",
+    "d": "Title",
+    "correct": "c"
+  },
+  {
+    "title": "Со CSS селектор селектирајте го елементот со ID exam:\n<div class=\"exam\"></div>\n<div id=\"exam\"></div>",
+    "a": ".exam",
+    "b": "#exam",
+    "c": "div.exam",
+    "d": "#exam div",
+    "correct": "b"
+  },
+  {
+    "title": "Со CSS селектор селектирајте ги парните линкови:",
+    "a": "a:nth-child(2)",
+    "b": "a:nth-child(2n+1)",
+    "c": "a:nth-child(2n)",
+    "d": "a:nth-child(3n)",
+    "correct": "c"
+  },
+  {
+    "title": "Со CSS селектор селектирајте ги непарните линкови:",
+    "a": "a:nth-child(2)",
+    "b": "a:nth-child(2n+1)",
+    "c": "a:nth-child(2n)",
+    "d": "a:nth-child(3n)",
+    "correct": "b"
+  },
+  {
+    "title": "Пресметајте ја специфичноста на следниот CSS селектор:\nul#summer-drinks li.favorite",
+    "a": "1-2-1",
+    "b": "2-2-1",
+    "c": "2-1-1",
+    "d": "1-1-2",
+    "correct": "d"
+  },
+  {
+    "title": "Што е маргина?",
+    "a": "Граница на html елеметот",
+    "b": "Простор меѓу 2 html елементи",
+    "c": "Место каде што се внесува содржината на елементот",
+    "d": "Простор меѓу содржината на елементот и неговата граница",
+    "correct": "b"
+  },
+  {
+    "title": "Колку нивоа на наслови има во HTML (h1,h2,..)?",
+    "a": "4",
+    "b": "5",
+    "c": "6",
+    "d": "7",
+    "correct": "c"
+  },
+  {
+    "title": "Кој од следните HTML кодови се правилно напишани?",
+    "a": "<p id=\"_vred_1\">Ova e paragraf!</p>",
+    "b": "<p id=\"$vred_1\">Ova e paragraf!</p>",
+    "c": "<p id=\"Vred_1\">Ova e paragraf!</p>",
+    "d": "<p id=\"vred?1\">Ova e paragraf!</p>",
+    "correct": "a"
+  },
+  {
+    "title": "Кој од следниве трвдења е неточно?",
+    "a": "Висината на block елементот доколку не е специфицирана зависи од неговата содржина",
+    "b": "На inline елементите не може да се специфицираат ширина и висина",
+    "c": "Ширината на inline елементите е 100%",
+    "d": "inline-block елементите имаат ширина и висина",
+    "correct": "c"
+  },
+  {
+    "title": "Што е карактеристично за блок елементите?",
+    "a": "Почнуваат во нов ред и имаат ширина 100%",
+    "b": "Продолжуваат во истиот ред и имаат ширина 100%",
+    "c": "Почнуваат во нов ред и немаат предефинирата ширина",
+    "d": "Продолжуваат во истиот ред и имаат ширина во зависност од содржината",
+    "correct": "a"
+  }
+]
