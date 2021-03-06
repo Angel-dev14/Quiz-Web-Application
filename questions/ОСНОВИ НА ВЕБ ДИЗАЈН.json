@@ -144,14 +144,6 @@
     "correct": "a"
   },
   {
-    "title": "Што означува кратенката CSS?",
-    "a": "Cascading Style Sheets",
-    "b": "Creative Style Sheets",
-    "c": "Computer Style Sheets",
-    "d": "Colorful Style Sheets",
-    "correct": "a"
-  },
-  {
     "title": "Како се линкува надворешен CSS?",
     "a": " <stylesheet>mystyle.css</stylesheet>",
     "b": " <style src=\"mystyle.css\">",
