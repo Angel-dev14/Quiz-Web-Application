@@ -24,12 +24,29 @@ $(document).ready(function ()
 
     })
 
+    if(window.innerWidth < 780){
+        if($("#header").hasClass("container")){
+            $("#header").removeClass("container").addClass("container-fluid");
+        }
+    }
+
     $(window).resize(function ()
     {
         if(window.innerWidth > 580){
             if($("nav").hasClass("go-up")){
-                $($("nav").removeClass("go-up"))
+                $("nav").removeClass("go-up")
             }
         }
+        if(window.innerWidth < 780){
+            if($("#header").hasClass("container")){
+                $("#header").removeClass("container").addClass("container-fluid");
+            }
+        }
+        if(window.innerWidth >= 780){
+            if($("#header").hasClass("container-fluid")){
+                $("#header").removeClass("container-fluid").addClass("container");
+            }
+        }
+
     })
 })
