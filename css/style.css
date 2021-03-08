@@ -18,15 +18,15 @@ body{
     display: none;
 }
 .drop-down{
-    transition: 0.5s ease-in;
+    transition: 0.8s ease-in;
     position: relative;
     top: 0!important;
     z-index: 1;
 }
 .go-up{
-    transition: 0.5s ease-in;
+    transition: 0.8s ease-out;
     position: relative;
-    top: -100px!important;
+    top: -200px!important;
     z-index: 1;
 }
 /* HEADER */
@@ -222,7 +222,7 @@ header {
 #main-body{
     background: #F53844;
 }
-#gradient-purple{
+#gradient{
     background: linear-gradient(to top ,#42378F 20%,#F53844);
 }
 
@@ -409,6 +409,25 @@ header {
     padding: 10px;
     word-wrap: break-word;
 }
+
+
+/* NEWS SECTION */
+
+.single-news{
+    background-color: rgba(0,0,0,0.4);
+    margin: 10px;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+}
+
+
+/* DATE */
+.date{
+    font-family: 'Oswald', sans-serif;
+    color: #ffaf4a;
+}
+
  /* FOOTER */
 footer{
     position: relative;
@@ -418,9 +437,10 @@ footer{
 }
 
 
+
 /* SCREEN OPTIMIZATION */
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 780px){
     /* topic */
     .single-topic{
         height: 250px;
@@ -435,11 +455,11 @@ footer{
     .nav-bar #logo a{
         text-decoration: none;
         color: white;
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 780px){
 
     /* header */
 
@@ -456,7 +476,7 @@ footer{
     header .nav-bar nav{
         width: 100%;
         position: relative;
-        top: -100px;
+        top: -200px;
         z-index: -1;
     }
     header .nav-bar h2{
@@ -475,6 +495,8 @@ footer{
         background-color: #F53844;
         padding: 0;
         margin: 0;
+        border-radius: 15px;
+        box-shadow: 0 0 5px black;
     }
     .nav-bar #logo a{
         text-decoration: none;
