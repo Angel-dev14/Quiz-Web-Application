@@ -1,4 +1,4 @@
-# quiz-app
+Quiz Web Application
 
 A dynamic full responsive web page that allows students and other users to solve quizes with some of the subjects from the Faculty of Computer Science and Engineering in Skopje
 
